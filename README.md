@@ -3,21 +3,21 @@ Projet d'authentification des utilisateurs.
 
  dependecies installé:
  
-   $ npm instal express
+   $ npm install express
    
-   $ npm instal express-flash
+   $ npm install express-flash
    
-   $ npm instal express-session
+   $ npm install express-session
    
-   $ npm instal jsonwebtoken
+   $ npm install jsonwebtoken
    
-   $ npm instal method-override
+   $ npm install method-override
    
-   $ npm instal passport
+   $ npm install passport
    
-   $ npm instal passport-local
+   $ npm install passport-local
    
-   $ pm install request@2.81.0
+   $ npm install request@2.81.0
    
    Projet run:
    node server.js  =>localhost:3000.
