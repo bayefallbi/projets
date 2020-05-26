@@ -56,6 +56,7 @@ app.use(passport.session())
 app.use(methodOverride('_method'))
 
 //Method get verifiant d'abord si l'utilisateur s'est bien authentifié puis se redirige a la page index.ejs.
+//en meme temps appel l'api demande pour afficher a l'ecran la propriete seetrusLabel.
 app.get('/', checkAuthenticated, (req, res) => {
   res.render('index.ejs', { name: req.user.setrus })
 })
